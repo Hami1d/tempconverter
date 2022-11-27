@@ -20,7 +20,7 @@ def main():
     
     elif choose == 3:
         print(f'{temp} °K\n')
-        KtoF = (temp - 273,15) * 9/5 + 32
+        KtoF = (temp - 273.15) * 9/5 + 32
         KtoC = temp - 273.15
         print(f'Kelvin to Fahrenheit: {KtoF}°F \nKelvin ro Celsius: {KtoC}°C\n')
         main()
